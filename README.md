@@ -1,0 +1,13 @@
+# Рабочее окружение
+- git version 2.55.0.windows.3
+- GCC 16.2.0 (with POSIX threads) + LLVM/Clang/LLD/LLDB 23.1.3 + MinGW-w64 14.0.0 (UCRT) - release 3
+- Python 3.14.10
+- Node.js v24.22.1, npm 11.19.1
+- Typescript Version 7.0.2
+- JDK 17.0.12d
+- .NET SDK 10.0.302
+- Rust 1.99.1 + rustup 1.29.2
+- Go 1.27.3
+- GNU bash, version 5.3.15(1)-release (git bash)
+- GNU assembler version 2.47
+- SWI-Prolog version 10.0.2 for x64-win64
