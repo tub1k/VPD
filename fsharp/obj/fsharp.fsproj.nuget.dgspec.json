@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\VPD\\fsharp\\fsharp.fsproj": {}
+    "C:\\uni_labs\\VPD\\fsharp\\fsharp.fsproj": {}
   },
   "projects": {
-    "C:\\VPD\\fsharp\\fsharp.fsproj": {
+    "C:\\uni_labs\\VPD\\fsharp\\fsharp.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\VPD\\fsharp\\fsharp.fsproj",
+        "projectUniqueName": "C:\\uni_labs\\VPD\\fsharp\\fsharp.fsproj",
         "projectName": "fsharp",
-        "projectPath": "C:\\VPD\\fsharp\\fsharp.fsproj",
+        "projectPath": "C:\\uni_labs\\VPD\\fsharp\\fsharp.fsproj",
         "packagesPath": "C:\\Users\\gamer\\.nuget\\packages\\",
-        "outputPath": "C:\\VPD\\fsharp\\obj\\",
+        "outputPath": "C:\\uni_labs\\VPD\\fsharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gamer\\AppData\\Roaming\\NuGet\\NuGet.Config"

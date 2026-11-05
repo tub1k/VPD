@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "94gSvkHFAmg=",
+  "dgSpecHash": "PByj8j1vJnE=",
   "success": true,
-  "projectFilePath": "C:\\VPD\\fsharp\\fsharp.fsproj",
+  "projectFilePath": "C:\\uni_labs\\VPD\\fsharp\\fsharp.fsproj",
   "expectedPackageFiles": [
     "C:\\Users\\gamer\\.nuget\\packages\\fsharp.core\\10.1.302\\fsharp.core.10.1.302.nupkg.sha512"
   ],

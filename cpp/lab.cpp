@@ -7,7 +7,7 @@ using namespace std;
 
 int main() 
 {
-    setlocale(LC_ALL, "Russian");
+    setlocale(LC_ALL, "ru_RU.UTF-8");
 
     string student_name_ru = "Гречушников Павел Сергеевич";
     string student_name_en = "Grechushnikov Pavel Sergeevich";

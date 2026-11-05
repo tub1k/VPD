@@ -3,7 +3,7 @@
 
 int main() 
 {
-    setlocale(LC_ALL, "Russian");
+    setlocale(LC_ALL, "ru_RU.UTF-8");
     char student_name_ru[53] = "Гречушников Павел Сергеевич";
     char student_name_en[31] = "Grechushnikov Pavel Sergeevich";
     int student_number = 10;
