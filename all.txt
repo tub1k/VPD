@@ -1,0 +1,119 @@
+﻿===== Assembler =====
+gcc -c asm/assembler.s -o asm/assembler.o
+gcc asm/assembler.o -o asm/assembler.exe
+./asm/assembler.exe
+Hello to 304 from Grechushnikov Pavel Sergeevich, number 10, group M3O-109BV-26!
+===== Bash =====
+bash bash/lab.sh
+Hello to 304 from Grechushnikov Pavel Sergeevich, number 10, group М3О-109БВ-26!
+Привет, 304! Это Гречушников Павел Сергеевич, номер 10, группа М3О-109БВ-26!
+Student ID: М3О-109БВ-26/10 | Language: Bash | Control: 3040
+В student_name_en слов: 3 | символов: 30
+===== C =====
+gcc c/lab.c -o c/lab.exe
+./c/lab.exe
+Hello to 304 from Grechushnikov Pavel Sergeevich, number 10, group М3О-109БВ-26!
+Привет, 304! Это Гречушников Павел Сергеевич, номер 10, группа М3О-109БВ-26!
+Student ID: М3О-109БВ-26/10 | Language: C | Control: 3040
+===== C++ =====
+g++ cpp/lab.cpp -o cpp/lab.exe
+./cpp/lab.exe
+Hello to 304 from Grechushnikov Pavel Sergeevich, number 10, group М3О-109БВ-26!
+Привет, 304! Это Гречушников Павел Сергеевич, номер 10, группа М3О-109БВ-26!
+Student ID: М3О-109БВ-26/10 | Language: C++ | Control: 3040
+===== C# =====
+dotnet run csharp/lab.cs
+Hello to 304 from Grechushnikov Pavel Sergeevich, number 10, group М3О-109БВ-26!
+Привет, 304! Это Гречушников Павел Сергеевич, номер 10, группа М3О-109БВ-26!
+Student ID: М3О-109БВ-26/10 | Language: C# | Control: 3040
+===== F# =====
+dotnet run --project fsharp/fsharp.fsproj
+Hello to 304 from Grechushnikov Pavel Sergeevich, number 10, group М3О-109БВ-26!
+Привет, 304! Это Гречушников Павел Сергеевич, номер 10, группа М3О-109БВ-26!
+Student ID: М3О-109БВ-26/10 | Language: F# | Control: 3040
+Слов в student_name_en: 3 | Длины слов: [|13; 5; 10|] | Сумма букв (без пробелов): 28
+===== Go =====
+go build -o go/lab.exe go/lab.go
+./go/lab.exe
+Hello to 304 from Grechushnikov Pavel Sergeevich, number 10, group М3О-109БВ-26!
+Привет, 304! Это Гречушников Павел Сергеевич, номер 10, группа М3О-109БВ-26!
+Student ID: М3О-109БВ-26/10 | Language: Go | Control: 3040
+===== Java =====
+javac -encoding UTF-8 java/Lab.java
+java -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -cp java Lab
+Hello to 304 from Grechushnikov Pavel Sergeevich, number 10, group М3О-109БВ-26!
+Привет, 304! Это Гречушников Павел Сергеевич, номер 10, группа М3О-109БВ-26!
+Student ID: М3О-109БВ-26/10 | Language: Java | Control: 3040
+===== JavaScript =====
+node javascript/lab.js
+Hello to 304 from Grechushnikov Pavel Sergeevich, number 10, group М3О-109БВ-26!
+Привет, 304! Это Гречушников Павел Сергеевич, номер 10, группа М3О-109БВ-26!
+Student ID: М3О-109БВ-26/10 | Language: JavaScript | Control: 3040
+Длина student_name_en: 30
+===== Prolog =====
+swipl -q -g "set_prolog_flag(encoding, utf8), set_stream(user_output, encoding(utf8)), consult('prolog/lab.pl')" -t halt
+Hello to 304 from Grechushnikov Pavel Sergeevich, number 10, group М3О-109БВ-26!
+Привет, 304! Это Гречушников Павел Сергеевич, номер 10, группа М3О-109БВ-26!
+Student ID: М3О-109БВ-26/10 | Language: Prolog | Control: 3040
+===== Python =====
+python -X utf8 python/lab.py
+Hello to 304 from Grechushnikov Pavel Sergeevich, number 10, group М3О-109БВ-26!
+Привет, 304! Это Гречушников Павел Сергеевич, номер 10, группа М3О-109БВ-26!
+Student ID: М3О-109БВ-26/10 | Language: Python | Control: 3040
+Количество слов в student_name_en: 3
+===== Rust =====
+rustc rust/lab.rs -o rust/lab.exe
+./rust/lab.exe
+Hello to 304 from Grechushnikov Pavel Sergeevich, number 10, group М3О-109БВ-26!
+Привет, 304! Это Гречушников Павел Сергеевич, номер 10, группа М3О-109БВ-26!
+Student ID: М3О-109БВ-26/10 | Language: Rust | Control: 3040
+Сформированный student_id: М3О-109БВ-26/10
+===== TypeScript =====
+npx tsc typescript/lab.ts
+node typescript/lab.js
+Hello to 304 from Grechushnikov Pavel Sergeevich, number 10, group М3О-109БВ-26!
+Привет, 304! Это Гречушников Павел Сергеевич, номер 10, группа М3О-109БВ-26!
+Student ID: М3О-109БВ-26/10 | Language: TypeScript | Control: 3040
+===== Cleaning =====
+rm -f asm/*.o asm/*.exe c/*.exe cpp/*.exe csharp/*.exe go/*.exe java/*.class rust/*.exe rust/*.pdb typescript/*.js a.out
+dotnet clean fsharp/fsharp.fsproj
+Сборка начата 05.11.2026 21:40:18.
+     1>Проект "C:\uni_labs\VPD\fsharp\fsharp.fsproj" в узле 1 (целевые объекты Clean).
+     1>CoreClean:
+         Файл "C:\uni_labs\VPD\fsharp\bin\Debug\net10.0\fsharp.exe" удаляется.
+         Файл "C:\uni_labs\VPD\fsharp\bin\Debug\net10.0\fsharp.deps.json" удаляется.
+         Файл "C:\uni_labs\VPD\fsharp\bin\Debug\net10.0\fsharp.runtimeconfig.json" удаляется.
+         Файл "C:\uni_labs\VPD\fsharp\bin\Debug\net10.0\fsharp.dll" удаляется.
+         Файл "C:\uni_labs\VPD\fsharp\bin\Debug\net10.0\fsharp.pdb" удаляется.
+         Файл "C:\uni_labs\VPD\fsharp\bin\Debug\net10.0\FSharp.Core.dll" удаляется.
+         Файл "C:\uni_labs\VPD\fsharp\bin\Debug\net10.0\cs\FSharp.Core.resources.dll" удаляется.
+         Файл "C:\uni_labs\VPD\fsharp\bin\Debug\net10.0\de\FSharp.Core.resources.dll" удаляется.
+         Файл "C:\uni_labs\VPD\fsharp\bin\Debug\net10.0\es\FSharp.Core.resources.dll" удаляется.
+         Файл "C:\uni_labs\VPD\fsharp\bin\Debug\net10.0\fr\FSharp.Core.resources.dll" удаляется.
+         Файл "C:\uni_labs\VPD\fsharp\bin\Debug\net10.0\it\FSharp.Core.resources.dll" удаляется.
+         Файл "C:\uni_labs\VPD\fsharp\bin\Debug\net10.0\ja\FSharp.Core.resources.dll" удаляется.
+         Файл "C:\uni_labs\VPD\fsharp\bin\Debug\net10.0\ko\FSharp.Core.resources.dll" удаляется.
+         Файл "C:\uni_labs\VPD\fsharp\bin\Debug\net10.0\pl\FSharp.Core.resources.dll" удаляется.
+         Файл "C:\uni_labs\VPD\fsharp\bin\Debug\net10.0\pt-BR\FSharp.Core.resources.dll" удаляется.
+         Файл "C:\uni_labs\VPD\fsharp\bin\Debug\net10.0\ru\FSharp.Core.resources.dll" удаляется.
+         Файл "C:\uni_labs\VPD\fsharp\bin\Debug\net10.0\tr\FSharp.Core.resources.dll" удаляется.
+         Файл "C:\uni_labs\VPD\fsharp\bin\Debug\net10.0\zh-Hans\FSharp.Core.resources.dll" удаляется.
+         Файл "C:\uni_labs\VPD\fsharp\bin\Debug\net10.0\zh-Hant\FSharp.Core.resources.dll" удаляется.
+         Файл "C:\uni_labs\VPD\fsharp\obj\Debug\net10.0\fsharp.fsproj.AssemblyReference.cache" удаляется.
+         Файл "C:\uni_labs\VPD\fsharp\obj\Debug\net10.0\fsharp.AssemblyInfoInputs.cache" удаляется.
+         Файл "C:\uni_labs\VPD\fsharp\obj\Debug\net10.0\fsharp.AssemblyInfo.fs" удаляется.
+         Файл "C:\uni_labs\VPD\fsharp\obj\Debug\net10.0\fsharp.fsproj.CoreCompileInputs.cache" удаляется.
+         Файл "C:\uni_labs\VPD\fsharp\obj\Debug\net10.0\fsharp.sourcelink.json" удаляется.
+         Файл "C:\uni_labs\VPD\fsharp\obj\Debug\net10.0\fsharp.fsproj.Up2Date" удаляется.
+         Файл "C:\uni_labs\VPD\fsharp\obj\Debug\net10.0\fsharp.dll" удаляется.
+         Файл "C:\uni_labs\VPD\fsharp\obj\Debug\net10.0\refint\fsharp.dll" удаляется.
+         Файл "C:\uni_labs\VPD\fsharp\obj\Debug\net10.0\fsharp.pdb" удаляется.
+         Файл "C:\uni_labs\VPD\fsharp\obj\Debug\net10.0\fsharp.genruntimeconfig.cache" удаляется.
+         Файл "C:\uni_labs\VPD\fsharp\obj\Debug\net10.0\ref\fsharp.dll" удаляется.
+     1>Сборка проекта "C:\uni_labs\VPD\fsharp\fsharp.fsproj" завершена (целевые объекты Clean).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.32

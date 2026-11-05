@@ -38,7 +38,7 @@ go:
 java:
 	@echo "===== Java ====="
 	javac -encoding UTF-8 java/Lab.java
-	java -cp java Lab
+	java -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -cp java Lab
 
 js:
 	@echo "===== JavaScript ====="
@@ -46,11 +46,11 @@ js:
 
 prolog:
 	@echo "===== Prolog ====="
-	swipl -q -s prolog/lab.pl -g main -t halt
+	swipl -q -g "set_prolog_flag(encoding, utf8), set_stream(user_output, encoding(utf8)), consult('prolog/lab.pl')" -t halt
 
 python:
 	@echo "===== Python ====="
-	python python/lab.py
+	python -X utf8 python/lab.py
 
 rust:
 	@echo "===== Rust ====="
